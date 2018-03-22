@@ -1,0 +1,147 @@
+a{
+  color:  #482A37;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+.navigation-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  background-color: #c8b0b0;
+  font-family: 'Poiret One', cursive;
+
+
+}
+
+.navigation-item{
+  margin: 0 15px;
+}
+
+.navigation-menu{
+  display: flex;
+}
+
+.welcome-message{
+  text-align: center;
+  background-image: url("workspace.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 540px;
+}
+
+.welcome-message{
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  color: #6e4959;
+  text-shadow: 2px 2px #c8b0b0;
+}
+
+
+.name-title, .mail, .phone, .about-me, .portfolio{
+  font-weight: bold;
+}
+.name-title, .about-me-title, .portfolio-title, .contact-me-title{
+  text-shadow: 2px 2px #c8b0b0;
+  text-align: center;
+  color: #a46e7a;
+}
+
+.about-me, .portfolio, .contact-me{
+  background-color: white;
+}
+
+
+.name{
+  font-size: 20px;
+  text-shadow: 2px 2px #c8b0b0;
+  color:  #482A37;
+}
+
+main{
+  font-family: 'Poiret One', cursive;
+  position: relative;
+  top : -90px;
+  margin: 0 350px;
+  text-align: center;
+}
+
+
+.social-media{
+  display: flex;
+  padding: 10px;
+  background-color: #c8b0b0;
+}
+
+.mysocial{
+  padding: 15px;
+justify-content: flex-end;
+}
+
+.contact-info{
+  font-size: 20px;
+}
+
+.contact-section{
+  background-color: white;
+  color: #888;
+}
+
+.contact-form{
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+}
+
+.contact-form-section{
+  display: flex;
+}
+
+.contact-information{
+  padding: 5px 20px;
+}
+
+.form-field{
+   border: 2px solid transparent;
+   -moz-border-image: -moz-linear-gradient(top, #c8b0b0 0%, #482a37 100%);
+   -webkit-border-image: -webkit-linear-gradient(top, #c8b0b0 0%, #482a37 100%);
+   border-image: linear-gradient(to-bottom, #c8b0b0 0%, #482a37 100%);
+   border-image-slice: 1;
+   margin: 5px;
+  padding: 15px;
+}
+
+.form-submit{
+  width: 80px;
+  border: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #c8b0b0 0%, #482a37 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #c8b0b0 0%, #482a37 100%);
+  border-image: linear-gradient(to-bottom, #c8b0b0 0%, #482a37 100%);
+  border-image-slice: 1;
+  padding: 5px;
+  margin: 10px;
+  background-color: transparent;
+}
+
+
+.contact-form-section textarea{
+  height: 90px;
+}
+
+hr{
+  color: #a46e7a;
+  margin: 0 200px;
+}
